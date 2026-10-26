@@ -1,0 +1,4133 @@
+{
+  "schemaVersion": "1.0",
+  "sourceFigmaFile": "Xl6Rsi8blrdansOtHc07vU",
+  "sourceCanvasNode": "6603:58363",
+  "sourceWorkflowRun": 40326521489,
+  "status": "figma_rest_extracted_structural_metadata",
+  "fidelity": "design implementation and nested styling NOT yet verified",
+  "templates": {
+    "T1": {
+      "name": "Origins",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:60753",
+          "dimensions": {
+            "x": 100.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:60755",
+              "figmaComponentId": "6603:100412",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 820.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_025",
+              "reactComponent": "Block025",
+              "figmaInstanceId": "6603:60756",
+              "figmaComponentId": "6603:129291",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_122",
+              "reactComponent": "Block122",
+              "figmaInstanceId": "6603:60757",
+              "figmaComponentId": "6603:125863",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_013",
+              "reactComponent": "Block013",
+              "figmaInstanceId": "6603:60758",
+              "figmaComponentId": "6603:125639",
+              "geometry": {
+                "x": 0.0,
+                "y": 2300.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "counterAxisAlignItems": "MAX",
+                "itemSpacing": 23.999998092651367,
+                "paddingTop": 59.999996185302734,
+                "paddingRight": 40.0,
+                "paddingBottom": 59.999996185302734,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_037",
+              "reactComponent": "Block037",
+              "figmaInstanceId": "6603:60759",
+              "figmaComponentId": "6603:128215",
+              "geometry": {
+                "x": 0.0,
+                "y": 3040.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_149",
+              "reactComponent": "Block149",
+              "figmaInstanceId": "6603:60760",
+              "figmaComponentId": "6603:133010",
+              "geometry": {
+                "x": 0.0,
+                "y": 3780.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 40.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_151",
+              "reactComponent": "Block151",
+              "figmaInstanceId": "6603:60761",
+              "figmaComponentId": "6603:128279",
+              "geometry": {
+                "x": 0.0,
+                "y": 4520.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 40.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:60775",
+          "dimensions": {
+            "x": 1580.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:60776",
+              "figmaComponentId": "6603:101298",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 390.0,
+                "height": 844.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "MAX",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 16.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_025",
+              "reactComponent": "Block025",
+              "figmaInstanceId": "6603:60777",
+              "figmaComponentId": "6603:132226",
+              "geometry": {
+                "x": 0.0,
+                "y": 844.0,
+                "width": 390.0,
+                "height": 1161.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_122",
+              "reactComponent": "Block122",
+              "figmaInstanceId": "6603:60778",
+              "figmaComponentId": "6603:125560",
+              "geometry": {
+                "x": 0.0,
+                "y": 2005.0,
+                "width": 390.0,
+                "height": 658.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_013",
+              "reactComponent": "Block013",
+              "figmaInstanceId": "6603:60779",
+              "figmaComponentId": "6603:131271",
+              "geometry": {
+                "x": 0.0,
+                "y": 2663.0,
+                "width": 390.0,
+                "height": 1076.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "counterAxisAlignItems": "MAX",
+                "itemSpacing": 24.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_037",
+              "reactComponent": "Block037",
+              "figmaInstanceId": "6603:60780",
+              "figmaComponentId": "6603:113280",
+              "geometry": {
+                "x": 0.0,
+                "y": 3739.0,
+                "width": 390.0,
+                "height": 1371.63
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_149",
+              "reactComponent": "Block149",
+              "figmaInstanceId": "6603:60781",
+              "figmaComponentId": "6603:126324",
+              "geometry": {
+                "x": 0.0,
+                "y": 5110.63,
+                "width": 390.0,
+                "height": 794.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 40.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_151",
+              "reactComponent": "Block151",
+              "figmaInstanceId": "6603:60782",
+              "figmaComponentId": "6603:128628",
+              "geometry": {
+                "x": 0.0,
+                "y": 5904.63,
+                "width": 390.0,
+                "height": 970.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 40.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T2": {
+      "name": "Spotlight",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:60549",
+          "dimensions": {
+            "x": 7516.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:60552",
+              "figmaComponentId": "6603:100412",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 820.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_112",
+              "reactComponent": "Block112",
+              "figmaInstanceId": "6603:60553",
+              "figmaComponentId": "6603:122823",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_058",
+              "reactComponent": "Block058",
+              "figmaInstanceId": "6603:60554",
+              "figmaComponentId": "6603:100042",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "MAX",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_147",
+              "reactComponent": "Block147",
+              "figmaInstanceId": "6603:60555",
+              "figmaComponentId": "6603:112283",
+              "geometry": {
+                "x": 0.0,
+                "y": 2300.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 95.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_148",
+              "reactComponent": "Block148",
+              "figmaInstanceId": "6603:60556",
+              "figmaComponentId": "6603:113464",
+              "geometry": {
+                "x": 0.0,
+                "y": 3040.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 44.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_003",
+              "reactComponent": "Block003",
+              "figmaInstanceId": "6603:60557",
+              "figmaComponentId": "6603:113350",
+              "geometry": {
+                "x": 0.0,
+                "y": 3780.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_118",
+              "reactComponent": "Block118",
+              "figmaInstanceId": "6603:60558",
+              "figmaComponentId": "6603:130918",
+              "geometry": {
+                "x": 0.0,
+                "y": 4520.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_019",
+              "reactComponent": "Block019",
+              "figmaInstanceId": "6603:60559",
+              "figmaComponentId": "6603:127883",
+              "geometry": {
+                "x": 0.0,
+                "y": 5260.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_138",
+              "reactComponent": "Block138",
+              "figmaInstanceId": "6603:60560",
+              "figmaComponentId": "6603:113163",
+              "geometry": {
+                "x": 0.0,
+                "y": 6000.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:60578",
+          "dimensions": {
+            "x": 8996.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:60579",
+              "figmaComponentId": "6603:101298",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 390.0,
+                "height": 844.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "MAX",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 16.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_112",
+              "reactComponent": "Block112",
+              "figmaInstanceId": "6603:60580",
+              "figmaComponentId": "5630:13729",
+              "geometry": {
+                "x": 0.0,
+                "y": 844.0,
+                "width": 390.0,
+                "height": 772.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "primaryAxisAlignItems": "CENTER",
+                "itemSpacing": 10.0,
+                "paddingRight": 16.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_058",
+              "reactComponent": "Block058",
+              "figmaInstanceId": "6603:60581",
+              "figmaComponentId": "6603:99949",
+              "geometry": {
+                "x": 0.0,
+                "y": 1616.0,
+                "width": 390.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "MAX",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 8.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_147",
+              "reactComponent": "Block147",
+              "figmaInstanceId": "6603:60582",
+              "figmaComponentId": "6603:112975",
+              "geometry": {
+                "x": 0.0,
+                "y": 2356.0,
+                "width": 390.0,
+                "height": 1160.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_148",
+              "reactComponent": "Block148",
+              "figmaInstanceId": "6603:60583",
+              "figmaComponentId": "6603:133217",
+              "geometry": {
+                "x": 0.0,
+                "y": 3516.0,
+                "width": 390.0,
+                "height": 931.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_003",
+              "reactComponent": "Block003",
+              "figmaInstanceId": "6603:60584",
+              "figmaComponentId": "6603:120936",
+              "geometry": {
+                "x": 0.0,
+                "y": 4447.0,
+                "width": 390.0,
+                "height": 882.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 80.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_118",
+              "reactComponent": "Block118",
+              "figmaInstanceId": "6603:60585",
+              "figmaComponentId": "6603:125979",
+              "geometry": {
+                "x": 0.0,
+                "y": 5329.0,
+                "width": 390.0,
+                "height": 686.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_019",
+              "reactComponent": "Block019",
+              "figmaInstanceId": "6603:60586",
+              "figmaComponentId": "6603:121207",
+              "geometry": {
+                "x": 0.0,
+                "y": 6015.0,
+                "width": 390.0,
+                "height": 797.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 20.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_138",
+              "reactComponent": "Block138",
+              "figmaInstanceId": "6603:60587",
+              "figmaComponentId": "6603:115890",
+              "geometry": {
+                "x": 0.0,
+                "y": 6812.0,
+                "width": 390.0,
+                "height": 1038.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T3": {
+      "name": "Lens",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:60328",
+          "dimensions": {
+            "x": 12940.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:60330",
+              "figmaComponentId": "6603:100412",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 820.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_012",
+              "reactComponent": "Block012",
+              "figmaInstanceId": "6603:60331",
+              "figmaComponentId": "6603:128743",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_140",
+              "reactComponent": "Block140",
+              "figmaInstanceId": "6603:60332",
+              "figmaComponentId": "6603:113852",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_013",
+              "reactComponent": "Block013",
+              "figmaInstanceId": "6603:60333",
+              "figmaComponentId": "6603:125639",
+              "geometry": {
+                "x": 0.0,
+                "y": 2300.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "counterAxisAlignItems": "MAX",
+                "itemSpacing": 23.999998092651367,
+                "paddingTop": 59.999996185302734,
+                "paddingRight": 40.0,
+                "paddingBottom": 59.999996185302734,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_141",
+              "reactComponent": "Block141",
+              "figmaInstanceId": "6603:60334",
+              "figmaComponentId": "6603:128072",
+              "geometry": {
+                "x": 0.0,
+                "y": 3040.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "itemSpacing": 35.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_142",
+              "reactComponent": "Block142",
+              "figmaInstanceId": "6603:60335",
+              "figmaComponentId": "6603:117309",
+              "geometry": {
+                "x": 0.0,
+                "y": 3780.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 24.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_143",
+              "reactComponent": "Block143",
+              "figmaInstanceId": "6603:60336",
+              "figmaComponentId": "6603:123789",
+              "geometry": {
+                "x": 0.0,
+                "y": 4520.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "itemSpacing": 35.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:60338",
+          "dimensions": {
+            "x": 14420.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:60339",
+              "figmaComponentId": "6603:101298",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 390.0,
+                "height": 844.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "MAX",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 16.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_012",
+              "reactComponent": "Block012",
+              "figmaInstanceId": "6603:60340",
+              "figmaComponentId": "6603:132084",
+              "geometry": {
+                "x": 0.0,
+                "y": 844.0,
+                "width": 390.0,
+                "height": 864.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 40.0,
+                "paddingBottom": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_140",
+              "reactComponent": "Block140",
+              "figmaInstanceId": "6603:60341",
+              "figmaComponentId": "6603:113620",
+              "geometry": {
+                "x": 0.0,
+                "y": 1708.0,
+                "width": 390.0,
+                "height": 896.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_013",
+              "reactComponent": "Block013",
+              "figmaInstanceId": "6603:60342",
+              "figmaComponentId": "6603:131271",
+              "geometry": {
+                "x": 0.0,
+                "y": 2604.0,
+                "width": 390.0,
+                "height": 1076.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "counterAxisAlignItems": "MAX",
+                "itemSpacing": 24.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_141",
+              "reactComponent": "Block141",
+              "figmaInstanceId": "6603:60343",
+              "figmaComponentId": "6603:114027",
+              "geometry": {
+                "x": 0.0,
+                "y": 3680.0,
+                "width": 390.0,
+                "height": 1181.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "itemSpacing": 35.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_142",
+              "reactComponent": "Block142",
+              "figmaInstanceId": "6603:60344",
+              "figmaComponentId": "5630:13639",
+              "geometry": {
+                "x": 0.0,
+                "y": 4861.0,
+                "width": 390.0,
+                "height": 882.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 24.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_143",
+              "reactComponent": "Block143",
+              "figmaInstanceId": "6603:60345",
+              "figmaComponentId": "6603:121393",
+              "geometry": {
+                "x": 0.0,
+                "y": 5743.0,
+                "width": 390.0,
+                "height": 936.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "itemSpacing": 35.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T4": {
+      "name": "Gateway",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:59304",
+          "dimensions": {
+            "x": 18413.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:59305",
+              "figmaComponentId": "6603:100412",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 820.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_041",
+              "reactComponent": "Block041",
+              "figmaInstanceId": "6603:59306",
+              "figmaComponentId": "6603:126577",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_144",
+              "reactComponent": "Block144",
+              "figmaInstanceId": "6603:59307",
+              "figmaComponentId": "6603:112598",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_146",
+              "reactComponent": "Block146",
+              "figmaInstanceId": "6603:59309",
+              "figmaComponentId": "6603:114544",
+              "geometry": {
+                "x": 0.0,
+                "y": 3040.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_010",
+              "reactComponent": "Block010",
+              "figmaInstanceId": "6603:59310",
+              "figmaComponentId": "6603:122854",
+              "geometry": {
+                "x": 0.0,
+                "y": 3780.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "primaryAxisAlignItems": "SPACE_BETWEEN",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 126.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:59342",
+          "dimensions": {
+            "x": 19893.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:59343",
+              "figmaComponentId": "6603:101298",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 390.0,
+                "height": 844.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "MAX",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 16.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_041",
+              "reactComponent": "Block041",
+              "figmaInstanceId": "6603:59344",
+              "figmaComponentId": "6603:114190",
+              "geometry": {
+                "x": 0.0,
+                "y": 844.0,
+                "width": 390.0,
+                "height": 1038.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_144",
+              "reactComponent": "Block144",
+              "figmaInstanceId": "6603:59345",
+              "figmaComponentId": "6603:125129",
+              "geometry": {
+                "x": 0.0,
+                "y": 1882.0,
+                "width": 390.0,
+                "height": 831.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 40.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_146",
+              "reactComponent": "Block146",
+              "figmaInstanceId": "6603:59347",
+              "figmaComponentId": "6603:120377",
+              "geometry": {
+                "x": 0.0,
+                "y": 3626.0,
+                "width": 390.0,
+                "height": 877.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_010",
+              "reactComponent": "Block010",
+              "figmaInstanceId": "6603:59348",
+              "figmaComponentId": "6603:114287",
+              "geometry": {
+                "x": 0.0,
+                "y": 4503.0,
+                "width": 391.0,
+                "height": 1141.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T5": {
+      "name": "Arcane (Editorial)",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:59156",
+          "dimensions": {
+            "x": 26261.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_207",
+              "reactComponent": "Block207",
+              "figmaInstanceId": "6603:59157",
+              "figmaComponentId": "6603:117496",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 820.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 140.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_203",
+              "reactComponent": "Block203",
+              "figmaInstanceId": "6603:59158",
+              "figmaComponentId": "6603:132417",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_204",
+              "reactComponent": "Block204",
+              "figmaInstanceId": "6603:59159",
+              "figmaComponentId": "6603:118362",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_205",
+              "reactComponent": "Block205",
+              "figmaInstanceId": "6603:59160",
+              "figmaComponentId": "6603:124547",
+              "geometry": {
+                "x": 0.0,
+                "y": 2300.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_206",
+              "reactComponent": "Block206",
+              "figmaInstanceId": "6603:59161",
+              "figmaComponentId": "6603:117924",
+              "geometry": {
+                "x": 0.0,
+                "y": 3040.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:59164",
+          "dimensions": {
+            "x": 27741.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_207",
+              "reactComponent": "Block207",
+              "figmaInstanceId": "6603:59165",
+              "figmaComponentId": "5630:12872",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 390.0,
+                "height": 741.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 104.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_203",
+              "reactComponent": "Block203",
+              "figmaInstanceId": "6603:59166",
+              "figmaComponentId": "6603:111480",
+              "geometry": {
+                "x": 0.0,
+                "y": 741.0,
+                "width": 390.0,
+                "height": 1461.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_204",
+              "reactComponent": "Block204",
+              "figmaInstanceId": "6603:59167",
+              "figmaComponentId": "6603:118808",
+              "geometry": {
+                "x": 0.0,
+                "y": 2202.0,
+                "width": 390.0,
+                "height": 1294.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_205",
+              "reactComponent": "Block205",
+              "figmaInstanceId": "6603:59168",
+              "figmaComponentId": "6603:121750",
+              "geometry": {
+                "x": 0.0,
+                "y": 3496.0,
+                "width": 390.0,
+                "height": 1137.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_206",
+              "reactComponent": "Block206",
+              "figmaInstanceId": "6603:59169",
+              "figmaComponentId": "6603:123642",
+              "geometry": {
+                "x": 0.0,
+                "y": 4633.0,
+                "width": 390.0,
+                "height": 1220.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T6": {
+      "name": "Arcane (Case Study)",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:59008",
+          "dimensions": {
+            "x": 32801.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_220",
+              "reactComponent": "Block220",
+              "figmaInstanceId": "6603:59009",
+              "figmaComponentId": "6603:110714",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 820.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_191",
+              "reactComponent": "Block191",
+              "figmaInstanceId": "6603:59010",
+              "figmaComponentId": "6603:116820",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_042",
+              "reactComponent": "Block042",
+              "figmaInstanceId": "6603:59011",
+              "figmaComponentId": "6603:112439",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_022",
+              "reactComponent": "Block022",
+              "figmaInstanceId": "6603:59012",
+              "figmaComponentId": "6603:133397",
+              "geometry": {
+                "x": 0.0,
+                "y": 2300.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "counterAxisAlignItems": "MAX",
+                "itemSpacing": 32.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_153",
+              "reactComponent": "Block153",
+              "figmaInstanceId": "6603:59013",
+              "figmaComponentId": "6603:116006",
+              "geometry": {
+                "x": 0.0,
+                "y": 3040.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_154",
+              "reactComponent": "Block154",
+              "figmaInstanceId": "6603:59014",
+              "figmaComponentId": "6603:123261",
+              "geometry": {
+                "x": 0.0,
+                "y": 3780.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 95.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_189",
+              "reactComponent": "Block189",
+              "figmaInstanceId": "6603:59015",
+              "figmaComponentId": "6603:110590",
+              "geometry": {
+                "x": 0.0,
+                "y": 4520.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_190",
+              "reactComponent": "Block190",
+              "figmaInstanceId": "6603:59016",
+              "figmaComponentId": "6603:132997",
+              "geometry": {
+                "x": 0.0,
+                "y": 5260.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 40.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_157",
+              "reactComponent": "Block157",
+              "figmaInstanceId": "6603:59017",
+              "figmaComponentId": "6603:132849",
+              "geometry": {
+                "x": 0.0,
+                "y": 6000.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 45.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_099",
+              "reactComponent": "Block099",
+              "figmaInstanceId": "6603:59018",
+              "figmaComponentId": "6603:126474",
+              "geometry": {
+                "x": 0.0,
+                "y": 6740.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_101",
+              "reactComponent": "Block101",
+              "figmaInstanceId": "6603:59019",
+              "figmaComponentId": "6603:118725",
+              "geometry": {
+                "x": 0.0,
+                "y": 7480.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_110",
+              "reactComponent": "Block110",
+              "figmaInstanceId": "6603:59020",
+              "figmaComponentId": "6603:133649",
+              "geometry": {
+                "x": 0.0,
+                "y": 8220.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:59038",
+          "dimensions": {
+            "x": 34281.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_220",
+              "reactComponent": "Block220",
+              "figmaInstanceId": "6603:59039",
+              "figmaComponentId": "6603:110715",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 390.0,
+                "height": 844.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 40.0,
+                "paddingBottom": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_191",
+              "reactComponent": "Block191",
+              "figmaInstanceId": "6603:59040",
+              "figmaComponentId": "6603:121044",
+              "geometry": {
+                "x": 0.0,
+                "y": 844.0,
+                "width": 390.0,
+                "height": 852.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_042",
+              "reactComponent": "Block042",
+              "figmaInstanceId": "6603:59041",
+              "figmaComponentId": "6603:117176",
+              "geometry": {
+                "x": 0.0,
+                "y": 1696.0,
+                "width": 390.0,
+                "height": 1032.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_153",
+              "reactComponent": "Block153",
+              "figmaInstanceId": "6603:59043",
+              "figmaComponentId": "6603:119911",
+              "geometry": {
+                "x": 0.0,
+                "y": 3566.0,
+                "width": 390.0,
+                "height": 877.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_154",
+              "reactComponent": "Block154",
+              "figmaInstanceId": "6603:59044",
+              "figmaComponentId": "5630:12158",
+              "geometry": {
+                "x": 0.0,
+                "y": 4443.0,
+                "width": 390.0,
+                "height": 818.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_189",
+              "reactComponent": "Block189",
+              "figmaInstanceId": "6603:59045",
+              "figmaComponentId": "6603:115551",
+              "geometry": {
+                "x": 0.0,
+                "y": 5261.0,
+                "width": 390.0,
+                "height": 1377.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 40.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_190",
+              "reactComponent": "Block190",
+              "figmaInstanceId": "6603:59046",
+              "figmaComponentId": "6603:127870",
+              "geometry": {
+                "x": 0.0,
+                "y": 6638.0,
+                "width": 390.0,
+                "height": 700.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 40.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_157",
+              "reactComponent": "Block157",
+              "figmaInstanceId": "6603:59047",
+              "figmaComponentId": "5630:21305",
+              "geometry": {
+                "x": 0.0,
+                "y": 7338.0,
+                "width": 390.0,
+                "height": 837.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 40.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_099",
+              "reactComponent": "Block099",
+              "figmaInstanceId": "6603:59048",
+              "figmaComponentId": "6603:110444",
+              "geometry": {
+                "x": 0.0,
+                "y": 8175.0,
+                "width": 390.0,
+                "height": 1108.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 40.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_101",
+              "reactComponent": "Block101",
+              "figmaInstanceId": "6603:59049",
+              "figmaComponentId": "6603:112889",
+              "geometry": {
+                "x": 0.0,
+                "y": 9283.0,
+                "width": 390.0,
+                "height": 748.78
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_110",
+              "reactComponent": "Block110",
+              "figmaInstanceId": "6603:59050",
+              "figmaComponentId": "6603:115406",
+              "geometry": {
+                "x": 0.0,
+                "y": 10031.78,
+                "width": 390.0,
+                "height": 848.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T7": {
+      "name": "Anatomy",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:58791",
+          "dimensions": {
+            "x": 39341.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:58792",
+              "figmaComponentId": "6603:100412",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 820.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_042",
+              "reactComponent": "Block042",
+              "figmaInstanceId": "6603:58793",
+              "figmaComponentId": "6603:112438",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_078",
+              "reactComponent": "Block078",
+              "figmaInstanceId": "6603:58794",
+              "figmaComponentId": "6603:126731",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_038",
+              "reactComponent": "Block038",
+              "figmaInstanceId": "6603:58795",
+              "figmaComponentId": "6603:128887",
+              "geometry": {
+                "x": 0.0,
+                "y": 2300.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "itemSpacing": 80.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_156",
+              "reactComponent": "Block156",
+              "figmaInstanceId": "6603:58796",
+              "figmaComponentId": "6603:127520",
+              "geometry": {
+                "x": 0.0,
+                "y": 3040.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "itemSpacing": 24.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_193",
+              "reactComponent": "Block193",
+              "figmaInstanceId": "6603:58797",
+              "figmaComponentId": "6603:116997",
+              "geometry": {
+                "x": 0.0,
+                "y": 3780.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_033",
+              "reactComponent": "Block033",
+              "figmaInstanceId": "6603:58798",
+              "figmaComponentId": "6603:120173",
+              "geometry": {
+                "x": 0.0,
+                "y": 4520.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "counterAxisAlignItems": "MAX",
+                "itemSpacing": 95.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:58801",
+          "dimensions": {
+            "x": 40821.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:58802",
+              "figmaComponentId": "6603:101298",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 390.0,
+                "height": 844.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "MAX",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 16.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_042",
+              "reactComponent": "Block042",
+              "figmaInstanceId": "6603:58803",
+              "figmaComponentId": "6603:117175",
+              "geometry": {
+                "x": 0.0,
+                "y": 844.0,
+                "width": 390.0,
+                "height": 1032.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_078",
+              "reactComponent": "Block078",
+              "figmaInstanceId": "6603:58804",
+              "figmaComponentId": "6603:116557",
+              "geometry": {
+                "x": 0.0,
+                "y": 1876.0,
+                "width": 390.0,
+                "height": 768.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_038",
+              "reactComponent": "Block038",
+              "figmaInstanceId": "6603:58805",
+              "figmaComponentId": "6603:116525",
+              "geometry": {
+                "x": 0.0,
+                "y": 2644.0,
+                "width": 390.0,
+                "height": 865.48
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "itemSpacing": 80.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_156",
+              "reactComponent": "Block156",
+              "figmaInstanceId": "6603:58806",
+              "figmaComponentId": "6603:116195",
+              "geometry": {
+                "x": 0.0,
+                "y": 3509.48,
+                "width": 390.0,
+                "height": 809.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_193",
+              "reactComponent": "Block193",
+              "figmaInstanceId": "6603:58807",
+              "figmaComponentId": "6603:127265",
+              "geometry": {
+                "x": 0.0,
+                "y": 4318.48,
+                "width": 390.0,
+                "height": 1213.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 40.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_033",
+              "reactComponent": "Block033",
+              "figmaInstanceId": "6603:58808",
+              "figmaComponentId": "6603:132650",
+              "geometry": {
+                "x": 0.0,
+                "y": 5531.48,
+                "width": 390.0,
+                "height": 904.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "counterAxisAlignItems": "MAX",
+                "itemSpacing": 95.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T8": {
+      "name": "Manifesto",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:58581",
+          "dimensions": {
+            "x": 45881.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_078",
+              "reactComponent": "Block078",
+              "figmaInstanceId": "6603:58687",
+              "figmaComponentId": "6603:126733",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 19.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_203",
+              "reactComponent": "Block203",
+              "figmaInstanceId": "6603:58688",
+              "figmaComponentId": "6603:132417",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_204",
+              "reactComponent": "Block204",
+              "figmaInstanceId": "6603:58689",
+              "figmaComponentId": "6603:118360",
+              "geometry": {
+                "x": 0.0,
+                "y": 2300.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_205",
+              "reactComponent": "Block205",
+              "figmaInstanceId": "6603:58690",
+              "figmaComponentId": "6603:124545",
+              "geometry": {
+                "x": 0.0,
+                "y": 3040.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_206",
+              "reactComponent": "Block206",
+              "figmaInstanceId": "6603:58691",
+              "figmaComponentId": "6603:117922",
+              "geometry": {
+                "x": 0.0,
+                "y": 3780.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_101",
+              "reactComponent": "Block101",
+              "figmaInstanceId": "6603:58692",
+              "figmaComponentId": "6603:118726",
+              "geometry": {
+                "x": 0.0,
+                "y": 4520.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_078",
+              "reactComponent": "Block078",
+              "figmaInstanceId": "6603:58694",
+              "figmaComponentId": "6603:126733",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 19.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_203",
+              "reactComponent": "Block203",
+              "figmaInstanceId": "6603:58695",
+              "figmaComponentId": "6603:132417",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_204",
+              "reactComponent": "Block204",
+              "figmaInstanceId": "6603:58696",
+              "figmaComponentId": "6603:118360",
+              "geometry": {
+                "x": 0.0,
+                "y": 2300.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_205",
+              "reactComponent": "Block205",
+              "figmaInstanceId": "6603:58697",
+              "figmaComponentId": "6603:124545",
+              "geometry": {
+                "x": 0.0,
+                "y": 3040.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_206",
+              "reactComponent": "Block206",
+              "figmaInstanceId": "6603:58698",
+              "figmaComponentId": "6603:117922",
+              "geometry": {
+                "x": 0.0,
+                "y": 3780.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_101",
+              "reactComponent": "Block101",
+              "figmaInstanceId": "6603:58699",
+              "figmaComponentId": "6603:118726",
+              "geometry": {
+                "x": 0.0,
+                "y": 4520.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:58713",
+          "dimensions": {
+            "x": 47361.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_207",
+              "reactComponent": "Block207",
+              "figmaInstanceId": "6603:58715",
+              "figmaComponentId": "5630:19160",
+              "geometry": {
+                "x": 0.0,
+                "y": 80.0,
+                "width": 390.0,
+                "height": 762.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_078",
+              "reactComponent": "Block078",
+              "figmaInstanceId": "6603:58716",
+              "figmaComponentId": "6603:116559",
+              "geometry": {
+                "x": 0.0,
+                "y": 842.0,
+                "width": 390.0,
+                "height": 768.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_203",
+              "reactComponent": "Block203",
+              "figmaInstanceId": "6603:58717",
+              "figmaComponentId": "6603:111480",
+              "geometry": {
+                "x": 0.0,
+                "y": 1610.0,
+                "width": 390.0,
+                "height": 1461.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_204",
+              "reactComponent": "Block204",
+              "figmaInstanceId": "6603:58718",
+              "figmaComponentId": "6603:118808",
+              "geometry": {
+                "x": 0.0,
+                "y": 3071.0,
+                "width": 390.0,
+                "height": 1294.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_205",
+              "reactComponent": "Block205",
+              "figmaInstanceId": "6603:58719",
+              "figmaComponentId": "6603:121750",
+              "geometry": {
+                "x": 0.0,
+                "y": 4365.0,
+                "width": 390.0,
+                "height": 1443.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_206",
+              "reactComponent": "Block206",
+              "figmaInstanceId": "6603:58720",
+              "figmaComponentId": "6603:123642",
+              "geometry": {
+                "x": 0.0,
+                "y": 5808.0,
+                "width": 390.0,
+                "height": 1567.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_101",
+              "reactComponent": "Block101",
+              "figmaInstanceId": "6603:58721",
+              "figmaComponentId": "6603:112890",
+              "geometry": {
+                "x": 0.0,
+                "y": 7375.0,
+                "width": 390.0,
+                "height": 748.78
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T9": {
+      "name": "Voice",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:58528",
+          "dimensions": {
+            "x": 52421.98,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:58530",
+              "figmaComponentId": "6603:100412",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 820.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_069",
+              "reactComponent": "Block069",
+              "figmaInstanceId": "6603:58531",
+              "figmaComponentId": "6603:119493",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_057",
+              "reactComponent": "Block057",
+              "figmaInstanceId": "6603:58532",
+              "figmaComponentId": "6603:123424",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "itemSpacing": 24.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_196",
+              "reactComponent": "Block196",
+              "figmaInstanceId": "6603:58533",
+              "figmaComponentId": "5630:12206",
+              "geometry": {
+                "x": 0.0,
+                "y": 2300.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_204",
+              "reactComponent": "Block204",
+              "figmaInstanceId": "6603:58534",
+              "figmaComponentId": "6603:118360",
+              "geometry": {
+                "x": 0.0,
+                "y": 3040.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_205",
+              "reactComponent": "Block205",
+              "figmaInstanceId": "6603:58535",
+              "figmaComponentId": "6603:124545",
+              "geometry": {
+                "x": 0.0,
+                "y": 3780.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_205",
+              "reactComponent": "Block205",
+              "figmaInstanceId": "6603:58536",
+              "figmaComponentId": "6603:124545",
+              "geometry": {
+                "x": 0.0,
+                "y": 4520.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_055",
+              "reactComponent": "Block055",
+              "figmaInstanceId": "6603:58537",
+              "figmaComponentId": "6603:119430",
+              "geometry": {
+                "x": 0.0,
+                "y": 5260.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:58554",
+          "dimensions": {
+            "x": 53902.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:58555",
+              "figmaComponentId": "6603:101298",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 390.0,
+                "height": 844.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "MAX",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 16.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_069",
+              "reactComponent": "Block069",
+              "figmaInstanceId": "6603:58556",
+              "figmaComponentId": "6603:124388",
+              "geometry": {
+                "x": 0.0,
+                "y": 844.0,
+                "width": 390.0,
+                "height": 888.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_057",
+              "reactComponent": "Block057",
+              "figmaInstanceId": "6603:58557",
+              "figmaComponentId": "6603:119157",
+              "geometry": {
+                "x": 0.0,
+                "y": 1732.0,
+                "width": 390.0,
+                "height": 1420.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_196",
+              "reactComponent": "Block196",
+              "figmaInstanceId": "6603:58558",
+              "figmaComponentId": "6603:119665",
+              "geometry": {
+                "x": 0.0,
+                "y": 3152.0,
+                "width": 390.0,
+                "height": 630.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_204",
+              "reactComponent": "Block204",
+              "figmaInstanceId": "6603:58559",
+              "figmaComponentId": "6603:118808",
+              "geometry": {
+                "x": 0.0,
+                "y": 3782.0,
+                "width": 390.0,
+                "height": 1294.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_205",
+              "reactComponent": "Block205",
+              "figmaInstanceId": "6603:58560",
+              "figmaComponentId": "6603:121750",
+              "geometry": {
+                "x": 0.0,
+                "y": 5076.0,
+                "width": 390.0,
+                "height": 1096.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_206",
+              "reactComponent": "Block206",
+              "figmaInstanceId": "6603:58561",
+              "figmaComponentId": "6603:123642",
+              "geometry": {
+                "x": 0.0,
+                "y": 6172.0,
+                "width": 390.0,
+                "height": 1227.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_055",
+              "reactComponent": "Block055",
+              "figmaInstanceId": "6603:58562",
+              "figmaComponentId": "6603:119377",
+              "geometry": {
+                "x": 0.0,
+                "y": 7399.0,
+                "width": 390.0,
+                "height": 684.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T10": {
+      "name": "Blueprint",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:58483",
+          "dimensions": {
+            "x": 58962.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:58486",
+              "figmaComponentId": "6603:100412",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 820.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_152",
+              "reactComponent": "Block152",
+              "figmaInstanceId": "6603:58487",
+              "figmaComponentId": "6603:128556",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "itemSpacing": 24.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_153",
+              "reactComponent": "Block153",
+              "figmaInstanceId": "6603:194345",
+              "figmaComponentId": "6603:116008",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_154",
+              "reactComponent": "Block154",
+              "figmaInstanceId": "6603:58489",
+              "figmaComponentId": "6603:123260",
+              "geometry": {
+                "x": 0.0,
+                "y": 2300.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 95.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_197",
+              "reactComponent": "Block197",
+              "figmaInstanceId": "6603:58490",
+              "figmaComponentId": "6603:110354",
+              "geometry": {
+                "x": 0.0,
+                "y": 3040.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_099",
+              "reactComponent": "Block099",
+              "figmaInstanceId": "6603:58491",
+              "figmaComponentId": "6603:126474",
+              "geometry": {
+                "x": 0.0,
+                "y": 3780.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:58493",
+          "dimensions": {
+            "x": 60442.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:58494",
+              "figmaComponentId": "6603:101298",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 390.0,
+                "height": 844.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "MAX",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 16.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_152",
+              "reactComponent": "Block152",
+              "figmaInstanceId": "6603:58495",
+              "figmaComponentId": "6603:120085",
+              "geometry": {
+                "x": 0.0,
+                "y": 844.0,
+                "width": 390.0,
+                "height": 1129.91
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "itemSpacing": 24.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_153",
+              "reactComponent": "Block153",
+              "figmaInstanceId": "6603:58496",
+              "figmaComponentId": "6603:119911",
+              "geometry": {
+                "x": 0.0,
+                "y": 1973.91,
+                "width": 390.0,
+                "height": 877.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_197",
+              "reactComponent": "Block197",
+              "figmaInstanceId": "6603:58497",
+              "figmaComponentId": "6603:119803",
+              "geometry": {
+                "x": 0.0,
+                "y": 2850.91,
+                "width": 390.0,
+                "height": 872.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_197",
+              "reactComponent": "Block197",
+              "figmaInstanceId": "6603:58498",
+              "figmaComponentId": "6603:119803",
+              "geometry": {
+                "x": 0.0,
+                "y": 3722.91,
+                "width": 390.0,
+                "height": 872.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_099",
+              "reactComponent": "Block099",
+              "figmaInstanceId": "6603:58499",
+              "figmaComponentId": "6603:110446",
+              "geometry": {
+                "x": 0.0,
+                "y": 4594.91,
+                "width": 390.0,
+                "height": 1108.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 40.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T11": {
+      "name": "Moments",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:58454",
+          "dimensions": {
+            "x": 65502.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:58457",
+              "figmaComponentId": "6603:100412",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 820.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_053",
+              "reactComponent": "Block053",
+              "figmaInstanceId": "6603:58458",
+              "figmaComponentId": "6603:124751",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 760.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_195",
+              "reactComponent": "Block195",
+              "figmaInstanceId": "6603:58459",
+              "figmaComponentId": "6603:129124",
+              "geometry": {
+                "x": 0.0,
+                "y": 1580.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:58461",
+          "dimensions": {
+            "x": 66982.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:58462",
+              "figmaComponentId": "6603:101298",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 390.0,
+                "height": 844.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "MAX",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 16.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_053",
+              "reactComponent": "Block053",
+              "figmaInstanceId": "6603:58463",
+              "figmaComponentId": "6603:125046",
+              "geometry": {
+                "x": 0.0,
+                "y": 844.0,
+                "width": 390.0,
+                "height": 720.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 8.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_195",
+              "reactComponent": "Block195",
+              "figmaInstanceId": "6603:58464",
+              "figmaComponentId": "6603:128392",
+              "geometry": {
+                "x": 0.0,
+                "y": 1564.0,
+                "width": 390.0,
+                "height": 1790.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T12": {
+      "name": "Signals",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:58418",
+          "dimensions": {
+            "x": 72042.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:58420",
+              "figmaComponentId": "6603:100412",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 820.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_203",
+              "reactComponent": "Block203",
+              "figmaInstanceId": "6603:58421",
+              "figmaComponentId": "6603:132417",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_204",
+              "reactComponent": "Block204",
+              "figmaInstanceId": "6603:58422",
+              "figmaComponentId": "6603:118360",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_205",
+              "reactComponent": "Block205",
+              "figmaInstanceId": "6603:58423",
+              "figmaComponentId": "6603:124545",
+              "geometry": {
+                "x": 0.0,
+                "y": 2300.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_206",
+              "reactComponent": "Block206",
+              "figmaInstanceId": "6603:58424",
+              "figmaComponentId": "6603:117922",
+              "geometry": {
+                "x": 0.0,
+                "y": 3040.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_136",
+              "reactComponent": "Block136",
+              "figmaInstanceId": "6603:194497",
+              "figmaComponentId": "6603:122075",
+              "geometry": {
+                "x": 0.0,
+                "y": 3780.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:58437",
+          "dimensions": {
+            "x": 73522.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:58438",
+              "figmaComponentId": "6603:101298",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 390.0,
+                "height": 844.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "MAX",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 16.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_203",
+              "reactComponent": "Block203",
+              "figmaInstanceId": "6603:58439",
+              "figmaComponentId": "6603:111480",
+              "geometry": {
+                "x": 0.0,
+                "y": 844.0,
+                "width": 390.0,
+                "height": 1461.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_205",
+              "reactComponent": "Block205",
+              "figmaInstanceId": "6603:58440",
+              "figmaComponentId": "6603:121750",
+              "geometry": {
+                "x": 0.0,
+                "y": 2305.0,
+                "width": 390.0,
+                "height": 1137.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 12.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 12.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_136",
+              "reactComponent": "Block136",
+              "figmaInstanceId": "6603:58441",
+              "figmaComponentId": "6603:121588",
+              "geometry": {
+                "x": 0.0,
+                "y": 3442.0,
+                "width": 390.0,
+                "height": 872.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T13": {
+      "name": "Anthology",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:58402",
+          "dimensions": {
+            "x": 78582.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:58405",
+              "figmaComponentId": "6603:100412",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 820.0
+              },
+              "layout": {
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_199",
+              "reactComponent": "Block199",
+              "figmaInstanceId": "6603:58406",
+              "figmaComponentId": "6603:122227",
+              "geometry": {
+                "x": 0.0,
+                "y": 820.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 8.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_075",
+              "reactComponent": "Block075",
+              "figmaInstanceId": "6603:58407",
+              "figmaComponentId": "6603:131485",
+              "geometry": {
+                "x": 0.0,
+                "y": 1560.0,
+                "width": 1280.0,
+                "height": 740.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 24.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:58389",
+          "dimensions": {
+            "x": 80062.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_209",
+              "reactComponent": "Block209",
+              "figmaInstanceId": "6603:58390",
+              "figmaComponentId": "6603:101298",
+              "geometry": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 390.0,
+                "height": 844.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "primaryAxisAlignItems": "MAX",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 16.0,
+                "paddingTop": 60.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            },
+            {
+              "code": "B_199",
+              "reactComponent": "Block199",
+              "figmaInstanceId": "6603:58391",
+              "figmaComponentId": "6603:128919",
+              "geometry": {
+                "x": 0.0,
+                "y": 844.0,
+                "width": 390.0,
+                "height": 1366.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "HUG"
+              }
+            },
+            {
+              "code": "B_075",
+              "reactComponent": "Block075",
+              "figmaInstanceId": "6603:58392",
+              "figmaComponentId": "6603:122435",
+              "geometry": {
+                "x": 0.0,
+                "y": 2210.0,
+                "width": 390.0,
+                "height": 1020.0
+              },
+              "layout": {
+                "layoutMode": "VERTICAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "T14": {
+      "name": "Forms",
+      "variants": {
+        "desktop": {
+          "frameId": "6603:58370",
+          "dimensions": {
+            "x": 85124.0,
+            "y": 753.0,
+            "width": 1280.0,
+            "height": 820.0
+          },
+          "components": [
+            {
+              "code": "B_059",
+              "reactComponent": "Block059",
+              "figmaInstanceId": "6603:58371",
+              "figmaComponentId": "6603:111800",
+              "geometry": {
+                "x": -0.35,
+                "y": 20.0,
+                "width": 1280.0,
+                "height": 1840.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "itemSpacing": 10.0,
+                "paddingTop": 60.0,
+                "paddingRight": 40.0,
+                "paddingBottom": 60.0,
+                "paddingLeft": 40.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              }
+            }
+          ]
+        },
+        "mobile": {
+          "frameId": "6603:58378",
+          "dimensions": {
+            "x": 86604.0,
+            "y": 753.0,
+            "width": 390.0,
+            "height": 844.0
+          },
+          "components": [
+            {
+              "code": "B_059",
+              "reactComponent": "Block059",
+              "figmaInstanceId": "6603:58380",
+              "figmaComponentId": "6603:123931",
+              "geometry": {
+                "x": 0.0,
+                "y": 80.0,
+                "width": 390.0,
+                "height": 2049.0
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "counterAxisAlignItems": "CENTER",
+                "itemSpacing": 10.0,
+                "paddingTop": 40.0,
+                "paddingRight": 16.0,
+                "paddingBottom": 40.0,
+                "paddingLeft": 16.0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
