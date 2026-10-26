@@ -1,6 +1,25 @@
 name: Extract five full Figma component contracts
 on:
   workflow_dispatch:
+    inputs:
+      component:
+        description: 'One component at a time (reduce request size)'
+        type: choice
+        required: true
+        default: B_025
+        options: [B_025, B_037, B_053, B_099, B_075]
+      variant:
+        description: 'Limit to desktop or mobile'
+        type: choice
+        required: true
+        default: desktop
+        options: [desktop, mobile, both]
+      depth:
+        description: 'Nested depth (2 = small; 6 = larger)'
+        type: choice
+        required: true
+        default: '3'
+        options: ['2', '3', '4', '5', '6']
 permissions:
   contents: read
 jobs:
@@ -12,15 +31,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Extract five components and their mobile variants
+      - name: Extract selected Figma component variant
         env:
           FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
+          FIGMA_COMPONENT: ${{ inputs.component }}
+          FIGMA_VARIANT: ${{ inputs.variant }}
+          FIGMA_DEPTH: ${{ inputs.depth }}
         run: python scripts/extract_five_design_contracts.py
       - name: Upload diagnostic design contracts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: five-full-design-contracts
+          name: figma-contract-${{ inputs.component }}-${{ inputs.variant }}-depth-${{ inputs.depth }}
           path: figma-spec-output/
           if-no-files-found: warn
           retention-days: 3
