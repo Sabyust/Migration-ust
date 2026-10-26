@@ -1,0 +1,37 @@
+name: Validate Figma T1-T14 (read-only REST API)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check out validation code
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Confirm token is configured (without exposing its value)
+        env:
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
+        run: |
+          if [ -z "$FIGMA_ACCESS_TOKEN" ]; then
+            echo "::error::Missing FIGMA_ACCESS_TOKEN repository secret. Add a newly generated read-only token in Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          echo "Figma secret present."
+      - name: Validate copied Figma canvas against registry
+        env:
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
+        run: python scripts/validate_figma_templates.py
+      - name: Upload validation report (no source file or token)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: figma-template-validation
+          path: validation-output/
+          if-no-files-found: warn
+          retention-days: 7
