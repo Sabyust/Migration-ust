@@ -1,0 +1,51 @@
+name: Validate five nested Figma design contracts
+on:
+  workflow_dispatch:
+    inputs:
+      extraction_run_id:
+        description: 'Successful Extract five full Figma component contracts run ID'
+        required: true
+        type: string
+permissions:
+  contents: read
+  actions: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download approved Figma design contract artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: five-full-design-contracts
+          run-id: ${{ inputs.extraction_run_id }}
+          github-token: ${{ github.token }}
+          path: figma-spec-input
+      - name: Install browser tooling
+        run: |
+          npm install --no-audit --no-fund
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Build and serve React component lab
+        run: |
+          npm run build
+          (npx vite preview --host 127.0.0.1 --port 4173 > /tmp/figma-nested-qa.log 2>&1 &)
+          for n in $(seq 1 30); do
+            if curl --fail --silent --output /dev/null http://127.0.0.1:4173/Migration-ust/component-lab.html; then exit 0; fi
+            sleep 1
+          done
+          exit 1
+      - name: Check React nested layers against Figma specification
+        run: node scripts/validate_five_nested_contracts.mjs
+      - name: Upload compliance and missing-layer report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: five-nested-component-qa
+          path: nested-qa-output/
+          if-no-files-found: warn
+          retention-days: 3
