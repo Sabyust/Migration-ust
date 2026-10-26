@@ -16,3 +16,9 @@ Retest component identity, frame size, nested child bounding boxes, CSS layout/p
 
 ## Blocker
 The last Figma REST image request returned HTTP 429 with a lengthy Retry-After. **This extractor has not been run and the contracts are not yet populated.** Do not hammer or bypass rate limits; use approved offline design exports if the read allowance is still unavailable.
+
+## Reduced-scope extraction controls (October 26)
+
+The extraction workflow now defaults to **one component** (`B_025`), **desktop only**, and **nested depth 3**, rather than ten full component variants. Other component, variant, and depth choices are available in the workflow dispatch form. Its artifact is explicitly **partial**; the downstream ten-variant validator must not be used for certification until complete design contracts have been assembled.
+
+**Do not rerun while Figma indicates HTTP 429 Retry-After.** Reducing node count and depth can reduce response size and payload complexity, but does not bypass seat-based request quotas. The last observed response specified Retry-After 390945 seconds (about 4 days, 12 hours, 36 minutes) from that request. The value is not a guaranteed reset time.
