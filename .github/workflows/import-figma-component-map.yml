@@ -1,0 +1,42 @@
+name: Import Figma component map to repository
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-figma-component-map.yml'
+      - 'scripts/import_figma_component_map.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Retrieve previously successful, verified Figma mapping artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: figma-t1-t14-component-map
+          run-id: 40326521489
+          github-token: ${{ github.token }}
+          path: figma-artifact
+      - name: Sanitize and import component structures
+        run: python scripts/import_figma_component_map.py
+      - name: Commit component map to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/figma-components.json src/figma/componentCatalog.js
+          if git diff --cached --quiet; then
+            echo "No mapping changes"
+          else
+            git commit -m "Import T1-T14 Figma component structures and React identifiers"
+            git push origin HEAD:main
+          fi
