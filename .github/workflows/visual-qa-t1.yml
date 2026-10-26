@@ -21,10 +21,6 @@ jobs:
           npm install --no-save playwright
           npx playwright install --with-deps chromium
           python -m pip install --disable-pip-version-check pillow
-      - name: Fetch approved Figma reference frames
-        env:
-          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
-        run: python scripts/visual_qa_figma_reference.py
       - name: Build and serve preview
         run: |
           npm run build
@@ -35,12 +31,33 @@ jobs:
           done
           echo "Could not reach preview page"
           exit 1
-      - name: Capture browser screenshots
+      - name: Capture browser screenshots independently of Figma availability
         run: node scripts/visual_qa_browser.mjs
-      - name: Compare Figma and browser pixels
+      - name: Fetch approved Figma reference frames
+        id: figma
+        continue-on-error: true
+        env:
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
+        run: python scripts/visual_qa_figma_reference.py
+      - name: Compare Figma and browser pixels when references are available
+        if: steps.figma.outcome == 'success'
         run: |
           python scripts/visual_qa_compare.py
           cat visual-qa-output/visual-qa-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Explain blocked comparison
+        if: steps.figma.outcome != 'success'
+        run: |
+          {
+            echo '# T1 Origins visual QA — reference blocked'
+            echo
+            echo '**The browser screenshot was captured, but Figma reference export failed.**'
+            echo 'No visual similarity or pixel-perfect score has been calculated.'
+            echo
+            echo 'Check the Figma reference step for the HTTP status and Retry-After value.'
+            echo 'HTTP 429 means Figma rate limiting; re-running immediately will not bypass it.'
+            echo
+            echo 'Alternative: obtain approved desktop/mobile Figma PNG exports for offline visual comparison.'
+          } | tee visual-qa-output/visual-qa-summary.md >> "$GITHUB_STEP_SUMMARY"
       - name: Upload diagnostic QA report
         if: always()
         uses: actions/upload-artifact@v4
