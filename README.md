@@ -43,3 +43,10 @@ GET https://api.figma.com/v1/files/H2iWuvkVo8uPmO2sk1lDG9/nodes?ids=6603:60753
 The current application is a **prototype, not a pixel-perfect implementation**. Original design assets, typography, desktop/mobile screenshot differences, and source copy remain under review. Browser-local edits and comments do not sync between reviewers.
 
 > The secret name is documented here; **the secret value is intentionally not included**.
+
+## Template knowledge base
+
+- [T1–T14 knowledge base](docs/FIGMA_TEMPLATE_KNOWLEDGE_BASE.md) — evidence-labeled template rules and component references.
+- [Machine-readable Figma template registry](data/figma-template-registry.json) — structured classifications and verification statuses.
+
+The new Figma-copy file is **not yet fully verified** because of the current Figma connector rate limit. These references distinguish prior source-file evidence from unverified copied-file details.
