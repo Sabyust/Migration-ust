@@ -1,0 +1,26 @@
+name: Map all Figma template components
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  map-components:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Extract authorized Figma component inventory
+        env:
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
+        run: python scripts/export_figma_component_map.py
+      - name: Attach mapping and code catalog
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: figma-t1-t14-component-map
+          path: component-map-output/
+          if-no-files-found: warn
+          retention-days: 7
