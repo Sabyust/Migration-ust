@@ -4,7 +4,7 @@
  * No placeholder layouts are represented as pixel-perfect components.
  */
 export function normalizeFigmaCode(value = '') {
-  const match = String(value).match(/\\b(B_\\d{3})(?:-[DM])?\\b/);
+  const match = String(value).match(/\b(B_\d{3})(?:-[DM])?\b/);
   return match ? match[1] : null;
 }
 
