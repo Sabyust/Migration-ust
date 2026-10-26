@@ -1,0 +1,26 @@
+name: Extract five full Figma component contracts
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Extract five components and their mobile variants
+        env:
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
+        run: python scripts/extract_five_design_contracts.py
+      - name: Upload diagnostic design contracts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: five-full-design-contracts
+          path: figma-spec-output/
+          if-no-files-found: warn
+          retention-days: 3
