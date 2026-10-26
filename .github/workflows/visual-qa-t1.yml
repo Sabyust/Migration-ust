@@ -1,0 +1,51 @@
+name: T1 Origins visual QA against Figma
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install screenshot and comparison dependencies
+        run: |
+          npm install --no-audit --no-fund
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+          python -m pip install --disable-pip-version-check pillow
+      - name: Fetch approved Figma reference frames
+        env:
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
+        run: python scripts/visual_qa_figma_reference.py
+      - name: Build and serve preview
+        run: |
+          npm run build
+          (npx vite preview --host 127.0.0.1 --port 4173 > /tmp/ust-vite-preview.log 2>&1 &)
+          for n in $(seq 1 30); do
+            if curl --fail --silent --output /dev/null http://127.0.0.1:4173/Migration-ust/our-approach-mapped/; then exit 0; fi
+            sleep 1
+          done
+          echo "Could not reach preview page"
+          exit 1
+      - name: Capture browser screenshots
+        run: node scripts/visual_qa_browser.mjs
+      - name: Compare Figma and browser pixels
+        run: |
+          python scripts/visual_qa_compare.py
+          cat visual-qa-output/visual-qa-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload diagnostic QA report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: t1-origins-visual-qa
+          path: visual-qa-output/
+          if-no-files-found: warn
+          retention-days: 3
