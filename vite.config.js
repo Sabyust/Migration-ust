@@ -1,2 +1,2 @@
 import { defineConfig } from 'vite'
-export default defineConfig({ base: '/Migration-ust/', build: {rollupOptions: { input: {main:'index.html',components:'component-lab.html',ourApproachTemplate:'our-approach-template.html'} }} })
+export default defineConfig({ base: '/Migration-ust/', build: {rollupOptions: { input: {main:'index.html',components:'component-lab.html',ourApproachTemplate:'our-approach-template.html',optimized:'our-approach-optimized.html'} }} })

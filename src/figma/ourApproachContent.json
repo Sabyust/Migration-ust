@@ -1,0 +1,152 @@
+{
+  "status": "editorial_review_required",
+  "sourceUrl": "https://www.ust.com/en/our-approach",
+  "sourceAvailability": "Live source page exposes a loading shell in available reader; this adaptation is grounded in UST What We Do, UST customer-first article, and sustainability report principles, not verbatim original page content.",
+  "sourceLinks": [
+    "https://www.ust.com/en/our-approach",
+    "https://www.ust.com/en/what-we-do",
+    "https://www.ust.com/en/insights/how-to-achieve-digital-transformation-by-putting-the-customer-first",
+    "https://www.ust.com/content/dam/ust/documents/ust-sustainability-report-2025.pdf"
+  ],
+  "page": {
+    "title": "Our Approach | Human-Centered Business Transformation | UST",
+    "description": "Discover how UST combines human-centered thinking, deep domain expertise and collaborative engineering to tackle business challenges and create lasting change."
+  },
+  "sections": {
+    "B_209": {
+      "eyebrow": "OUR APPROACH",
+      "title": "Your journey. Our shared commitment.",
+      "body": "Meaningful transformation begins by understanding what matters most. We listen, challenge assumptions and bring people, technology and industry expertise together to make change last.",
+      "cta": {
+        "label": "Explore what we do",
+        "href": "https://www.ust.com/en/what-we-do"
+      },
+      "highlights": [
+        {
+          "title": "Start with understanding",
+          "body": "Find the challenge behind the challenge."
+        },
+        {
+          "title": "Create together",
+          "body": "Combine expertise with your vision."
+        },
+        {
+          "title": "Stay for the outcome",
+          "body": "Keep improving until change delivers value."
+        }
+      ]
+    },
+    "B_025": {
+      "eyebrow": "HOW WE THINK",
+      "title": "Four principles. One shared ambition.",
+      "body": "Our approach is grounded in curiosity, agility, empathy and relationships.",
+      "cards": [
+        {
+          "title": "Define the real challenge",
+          "body": "Look beyond symptoms to understand the causes, context and opportunities that matter."
+        },
+        {
+          "title": "Move fast. Stay flexible.",
+          "body": "Make progress through focused action, learning and adaptation as needs evolve."
+        },
+        {
+          "title": "Keep people at the center",
+          "body": "Design for the customers, employees and communities touched by change."
+        }
+      ]
+    },
+    "B_122": {
+      "eyebrow": "HOW WE WORK",
+      "title": "From shared vision to meaningful outcomes.",
+      "body": "A collaborative journey shaped around the problem, not a predetermined solution.",
+      "steps": [
+        {
+          "title": "Listen",
+          "body": "Understand your goals, stakeholders and the outcomes you want to create."
+        },
+        {
+          "title": "Discover",
+          "body": "Explore root causes and uncover opportunities for purposeful change."
+        },
+        {
+          "title": "Build",
+          "body": "Bring strategy, design and engineering together to deliver and adapt."
+        },
+        {
+          "title": "Evolve",
+          "body": "Learn from results, refine what works and sustain progress together."
+        }
+      ]
+    },
+    "B_013": {
+      "eyebrow": "WHAT WE BRING",
+      "title": "Expertise that connects strategy to execution.",
+      "body": "Transformation works best when diverse capabilities move toward a common goal.",
+      "cards": [
+        {
+          "title": "Deep industry understanding",
+          "body": "Apply domain knowledge to the challenges and realities of your business."
+        },
+        {
+          "title": "Engineering-led execution",
+          "body": "Bring practical technology and product expertise to ideas that need to become real."
+        },
+        {
+          "title": "An innovation ecosystem",
+          "body": "Connect people, partners and emerging technologies to explore what is possible."
+        }
+      ]
+    },
+    "B_037": {
+      "eyebrow": "HUMAN-CENTERED BY DESIGN",
+      "title": "Technology matters. People make change meaningful.",
+      "body": "We put human needs at the heart of transformation. By understanding how people work, engage and experience services, we can design solutions that support lasting progress.",
+      "cta": {
+        "label": "See our capabilities",
+        "href": "https://www.ust.com/en/what-we-do"
+      }
+    },
+    "B_149": {
+      "eyebrow": "OUR VALUE DRIVERS",
+      "title": "The strengths behind every engagement.",
+      "body": "We combine a customer-first mindset with the capabilities needed to turn ambition into action.",
+      "cards": [
+        {
+          "title": "Customer-first focus",
+          "body": "Begin with your priorities, and measure progress through the value created."
+        },
+        {
+          "title": "Values-driven talent",
+          "body": "Work with teams guided by humility, humanity and integrity."
+        },
+        {
+          "title": "Transformative engineering",
+          "body": "Connect human insight with the technical depth to shape and deliver change."
+        }
+      ]
+    },
+    "B_151": {
+      "eyebrow": "WORKING TOGETHER",
+      "title": "More than a delivery partner.",
+      "body": "Our work is built on shared understanding, accountability and the belief that relationships are essential to sustained change.",
+      "cards": [
+        {
+          "title": "Listen deeply",
+          "body": "Make space for the perspectives that reveal what matters."
+        },
+        {
+          "title": "Challenge constructively",
+          "body": "Ask better questions and test assumptions before choosing a direction."
+        },
+        {
+          "title": "Work side by side",
+          "body": "Bring people and capabilities together around the same outcomes."
+        },
+        {
+          "title": "Keep moving forward",
+          "body": "Adapt as you learn and stay focused on lasting value."
+        }
+      ]
+    }
+  }
+}
