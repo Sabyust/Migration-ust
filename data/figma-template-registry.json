@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "1.0",
+  "purpose": "UST.com Figma template mapping registry",
+  "status": "partial_seed_unverified_in_copy",
+  "figmaCopy": {
+    "fileKey": "Xl6Rsi8blrdansOtHc07vU",
+    "canvasNode": "6603:58363",
+    "verified": false
+  },
+  "originalFigma": {
+    "fileKey": "H2iWuvkVo8uPmO2sk1lDG9",
+    "verifiedPreviously": true
+  },
+  "classifiedUrls": 2424,
+  "templates": [
+    {
+      "id": "T1",
+      "name": "Origins",
+      "pageCount": 6,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [
+        "B_209",
+        "B_025",
+        "B_122",
+        "B_013",
+        "B_037",
+        "B_149",
+        "B_151"
+      ],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T2",
+      "name": "Spotlight",
+      "pageCount": 118,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [
+        "B_209",
+        "B_112",
+        "B_058",
+        "B_147",
+        "B_148",
+        "B_003",
+        "B_118",
+        "B_019",
+        "B_138"
+      ],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T3",
+      "name": "Lens",
+      "pageCount": 50,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T4",
+      "name": "Gateway",
+      "pageCount": 1,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T5",
+      "name": "Arcane (Editorial)",
+      "pageCount": 544,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T6",
+      "name": "Arcane (Case Study)",
+      "pageCount": 466,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T7",
+      "name": "Anatomy",
+      "pageCount": 12,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T8",
+      "name": "Manifesto",
+      "pageCount": 118,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T9",
+      "name": "Voice",
+      "pageCount": 125,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T10",
+      "name": "Blueprint",
+      "pageCount": 18,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [
+        "B_209",
+        "B_152",
+        "B_153",
+        "B_154",
+        "B_197",
+        "B_099"
+      ],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T11",
+      "name": "Moments",
+      "pageCount": 57,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [
+        "B_209",
+        "B_053",
+        "B_195"
+      ],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T12",
+      "name": "Signals",
+      "pageCount": 758,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [
+        "B_209",
+        "B_203",
+        "B_204",
+        "B_205",
+        "B_206",
+        "B_136"
+      ],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T13",
+      "name": "Anthology",
+      "pageCount": 53,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [
+        "B_209",
+        "B_199",
+        "B_075"
+      ],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    },
+    {
+      "id": "T14",
+      "name": "Forms",
+      "pageCount": 98,
+      "verifiedInCopy": false,
+      "componentsOriginalSource": [
+        "B_059"
+      ],
+      "assetStatus": "not_collected",
+      "visualValidation": "pending",
+      "contentMapping": "pending"
+    }
+  ],
+  "rules": {
+    "sourceOfTruth": "Figma copy after verification; classification workbook for URL assignment",
+    "designChanges": "no changes without approval",
+    "contentClaims": "source-grounded only",
+    "desktopViewport": 1280,
+    "mobileViewport": 390,
+    "pixelPerfectClaim": "forbidden_without_screenshot_diff_and_asset_validation",
+    "noTokensInRepository": true
+  }
+}
