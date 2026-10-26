@@ -1,0 +1,46 @@
+name: QA Our Approach template-only build
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'our-approach-template.html'
+      - 'src/figma/ourApproachTemplate.*'
+      - 'scripts/qa_t1_template.mjs'
+      - '.github/workflows/qa-t1-template.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install and build
+        run: |
+          npm install --no-audit --no-fund
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+          npm run build
+      - name: Serve built template
+        run: |
+          (npx vite preview --host 127.0.0.1 --port 4173 > /tmp/template-qa.log 2>&1 &)
+          for n in $(seq 1 30); do
+            if curl --fail --silent --output /dev/null http://127.0.0.1:4173/Migration-ust/our-approach-template.html; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/template-qa.log
+          exit 1
+      - name: Verify structural design contracts
+        run: node scripts/qa_t1_template.mjs
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: t1-template-qa
+          path: template-qa-output/
+          if-no-files-found: warn
+          retention-days: 7
